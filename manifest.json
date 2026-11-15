@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Monitor de Precios Dinámico",
+  "version": "1.0",
+  "description": "Muestra variaciones de precio en valor real y porcentajes en comparación al precio actual.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.mercadolibre.com/*",
+        "*://*.mercadolibre.com.ve/*",
+        "*://*.mercadolibre.com.mx/*",
+        "*://*.mercadolibre.com.ar/*",
+        "*://*.mercadolibre.com.co/*",
+        "*://*.amazon.com/*",
+        "*://*.amazon.es/*",
+        "*://*.alibaba.com/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle"
+    }
+  ]
+}
