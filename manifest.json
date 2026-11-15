@@ -4,6 +4,9 @@
   "version": "1.0",
   "description": "Muestra variaciones de precio en valor real y porcentajes en comparación al precio actual.",
   "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
   "content_scripts": [
     {
       "matches": [
