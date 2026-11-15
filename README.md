@@ -13,7 +13,7 @@ Extensión para navegador desarrollada en **Manifest V3** que permite realizar u
 - Chrome/Edge Extensions API (Manifest V3)
 
 ## 📦 Instalación y Pruebas (Modo Desarrollador)
-1. Clona o descarga este repositorio en tu ordenador:
+1. Clona o descarga este repositorio:
    ```bash
    git clone [https://github.com/tu-usuario/price-tracker-edge.git](https://github.com/tu-usuario/price-tracker-edge.git)
 2. Recuerda activar el Modo para desarrolladores en Edge para verlo en acción.
